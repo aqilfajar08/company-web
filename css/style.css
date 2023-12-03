@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Poppins:wght@500;600&family=Quicksand:wght@500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    font-family: 'poppins';
+}
+
+/* Nav & Header */
+
+nav, header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 100px;
+}
+
+nav {
+    position: fixed;
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+
+    z-index: 1; 
+}
+
+/* Nav */
+
+nav .logo {
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: aliceblue;
+}
+
+.logo span {
+    color: rgb(65, 182, 143);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding: 7px 15px;
+    border-radius: 13px;
+    color: aliceblue;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+nav ul li a:hover {
+    background-color: rgb(53, 188, 143);
+}
+
+h4 .judul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* End Nav */
+
+/* img */
+
+section, #txt {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* txt */
+
+#txt {
+    position: absolute;
+    color: aliceblue;
+    font-size: 500%;
+    text-shadow: rgba( 0, 0, 0, 20) 0px 5px 10px;
+}
+
+/* Button */
+
+.buton {
+    position: absolute;
+    height: 50px;
+    top: 30rem;
+    text-decoration: none;
+
+    z-index: 1;
+}
+
+.color {
+    transition: 0.3s ease-in-out;
+}
+
+.color:hover {
+    color: aliceblue;
+}
+
+.btn {
+    padding: 30px;
+    height: 15px;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    font-size: 140%;
+    border: none;
+    
+    
+    transition: 0.3s ease-in-out;
+}
+
+.btn:hover {
+    background-color: rgb(53, 188, 143);
+    color: aliceblue;
+}
+
+/* end of txt */
+
+.ab {
+    font-size: 50px;
+}
+
+#about {
+    background: linear-gradient(black, rgb(21, 56, 44));
+    min-height: 100vh;
+    
+    position: relative;
+    top: 0;
+    color: white;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.about-content-bottom {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+    padding: 1px ;
+    gap: 10rem;
+}
+
+.pw {
+    top: 0;
+    left: 0;
+    color: aliceblue;
+}
+
+.hel {
+    padding: 30px;
+
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(0, 0);
+    justify-content: center;
+}
+
+.conten-img {
+    position: relative;
+    padding: 3rem ;
+    width: 450px;
+    height: 550px;
+    object-fit: cover;
+}
+
+.conten1 {
+    width: 450px;
+    height: 550px;
+    object-fit: cover;
+}
+
+.ab {
+    text-shadow: rgba( 0, 0, 0, 10);
+
+    font-size: 50px;
+}
+
+.herbal {
+    position: absolute;
+    top: 17rem;
+
+    color:  rgb(53, 188, 143);
+    font-size: 45px;
+}
+
+.art {
+    display: flex;
+    align-items: center;
+    font-size: larger;
+    color: aliceblue;
+}
+
+#company {
+    position: relative;
+    padding: 100px;
+    background: black;
+}
+
+.img-comp img {
+    margin-bottom: 10rem;
+}
+
+#company {
+    background: linear-gradient(rgb(21, 56, 44) ,black);
+    min-height: 100vh;  
+}
+
+.flex-comp {
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-comp > .img {
+    display: flex;
+    gap: 3rem;
+
+    margin: 10px;
+    padding: 20px;
+
+}
+
+.mg1,
+.mg2,
+.mg3,
+.mg4,
+.mg5 {
+    position: relative;
+
+    border: whitesmoke solid;
+    border-radius: 3rem;
+    width: 13.9rem;
+    height: 13rem;
+}
